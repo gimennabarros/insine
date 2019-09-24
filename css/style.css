@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url("../images/background_principal.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+.banner{
+	padding-top: 25%;
+}
+
+.insine{
+	font-size: 100px;
+	font-weight: 900;
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 70px;
+	padding: none;
+	margin-left: 70px;
+}
+
+.insine_subtitulo{
+	font-family: 'Sacramento', cursive;
+	font-size: 40px;
+}
+
+.btn_login{
+	padding: 10px 30px;
+	border-radius: 30px;
+	border: 2px solid #2ecc71;
+	background: #2ecc71;
+	color: white;
+	margin: 20px;
+	transition: all 0.2s;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.btn_login:hover{
+	background: #27ae60;
+	border: 2px solid #27ae60;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+.btn_cadastro{
+	padding: 10px 50px;
+	border-radius: 30px;
+	border: 2px solid #27ae60;
+	background: none;
+	color: white;
+	transition: all 0.3s;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.btn_cadastro:hover{
+	background: #27ae60;
+	color: white;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+
+@media (max-width: 991px){
+	.insine{
+		font-size: 80px;
+		letter-spacing: 10px;
+		margin-left: 10px;
+	}
+
+	.insine_subtitulo{
+		font-size: 30px;
+	}
+
+	.banner{
+		padding-top: 120px;
+	}
+
+	.btn_login{
+		padding: 10px 70px;
+	}
+}
+
+.centralizando_texto{
+	text-align: center;
+}
+
+/* Formulario cadastro */
+
+.baseCadastro{
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	border-radius: 10px;
+	padding-bottom: 60px;
+}
+
+.inputLargo{
+	width: 100%;
+	color: white;
+	background: rgba(0, 0, 0, 0.3);
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.btnCadastrar{
+	background: none;
+	color: white;
+	padding: 10px;
+	border: 2px solid green;
+	border-radius: 10px 0px 10px 0px;
+	float: right;
+	transition: 0.3s all;
+}
+
+.btnCadastrar:hover{
+	background: green;
+	transition: 0.3s all;
+}
+
+/* ============================================= Perfil ============================================= */
+
+.caixaPerfil{
+	background: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	padding: 20px;
+	color: black;
+	margin-top: 80px;
+}
+
+.caixaPerfil2{
+	background: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	padding: 20px 20px 5px 20px;
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.btnPostar{
+	background: none;
+	color: black;
+	padding: 0px 20px;
+	border: 2px solid green;
+	border-radius: 10px 0px 10px 0px;
+	float: right;
+	transition: 0.3s all;
+}
+
+.btnPostar:hover{
+	background: green;
+	color: white;
+	transition: 0.3s all;
+}
+
+.caixaPerfil2 textarea{
+	width: 100%;
+	border: none;
+}
+
+.card-body{
+	padding: 0;
+}
+
+.card{
+	border: 1px solid silver;
+}
+
+.imgPerfil{
+	width: 200px;
+	height: 200px;
+	margin: 0px 0px 15px 0px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+.imgPerfilPostagem{
+	width: 50px;
+	height: 50px;
+}
+
+@media (max-width: 991px){
+	.container{
+		margin: 0px;
+		padding: 0;
+	}
+
+	.caixaPerfil{
+		margin: 60px 0px 0px 0px;
+		border-radius: 0px;
+	}
+
+	.caixaPerfil2{
+		margin: 10px 0px 10px 0px;
+		border-radius: 0px;
+	}
+
+	.caixaPerfil3{
+		margin-top: 10px !important;
+	}
+
+	.imgPerfil{
+		width: 100px;
+		height: 100px;
+	}
+}
