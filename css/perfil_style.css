@@ -1,0 +1,85 @@
+.caixaPerfil{
+	background: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	padding: 20px;
+	color: black;
+	margin-top: 80px;
+}
+
+.caixaPerfil2{
+	background: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	padding: 20px 20px 5px 20px;
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.btnPostar{
+	background: none;
+	color: black;
+	padding: 0px 20px;
+	border: 2px solid green;
+	border-radius: 10px 0px 10px 0px;
+	float: right;
+	transition: 0.3s all;
+}
+
+.btnPostar:hover{
+	background: green;
+	color: white;
+	transition: 0.3s all;
+}
+
+.caixaPerfil2 textarea{
+	width: 100%;
+	border: none;
+}
+
+.card-body{
+	padding: 0;
+}
+
+.card{
+	border: 1px solid silver;
+}
+
+.imgPerfil{
+	width: 200px;
+	height: 200px;
+	margin: 0px 0px 15px 0px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+.imgPerfilPostagem{
+	width: 50px;
+	height: 50px;
+}
+
+@media (max-width: 991px){
+	.container{
+		margin: 0px;
+		padding: 0;
+	}
+
+	.caixaPerfil{
+		margin: 60px 0px 0px 0px;
+		border-radius: 0px;
+	}
+
+	.caixaPerfil2{
+		margin: 10px 0px 10px 0px;
+		border-radius: 0px;
+	}
+
+	.caixaPerfil3{
+		margin-top: 10px !important;
+	}
+
+	.imgPerfil{
+		width: 100px;
+		height: 100px;
+	}
+}
